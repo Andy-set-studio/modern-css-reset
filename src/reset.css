@@ -58,6 +58,14 @@ article > * + * {
   margin-top: 1em;
 }
 
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 /* Remove _all_ animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
