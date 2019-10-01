@@ -1,6 +1,5 @@
 # A modern CSS reset
 
-![The current build status based on whether tests are passing](https://api.travis-ci.org/hankchizljaw/modern-css-reset.svg?branch=master)
 ![The Uncompressed size of this reset](http://img.badgesize.io/https://unpkg.com/modern-css-reset?label=Uncompressed%20Size)
 ![The GZIP size of this reset](http://img.badgesize.io/https://unpkg.com/modern-css-reset?compression=gzip&label=GZIP%20Size)
 ![The Brotli size of this reset](http://img.badgesize.io/https://unpkg.com/modern-css-reset?compression=brotli&label=Brotli%20Size)
