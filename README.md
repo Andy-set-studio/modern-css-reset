@@ -9,6 +9,14 @@ A tiny little reset that you can use as the basis of your CSS projects. You can 
 
 You can find it on [NPM, here](https://www.npmjs.com/package/modern-css-reset).
 
+## Installation
+
+- NPM: `npm install modern-css-reset`
+- Yarn: `yarn add modern-css-reset`
+- CDN:
+  - Unpkg: `<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />`
+  - jsDelivr: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />`
+
 ## Commands
 
 You can minify and move the main reset to the `dist` by running:
