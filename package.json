@@ -17,7 +17,7 @@
     "url": "https://github.com/hankchizljaw/modern-css-reset/issues"
   },
   "homepage": "https://github.com/hankchizljaw/modern-css-reset#readme",
-  "dependencies": {
+  "devDependencies": {
     "uglifycss": "0.0.29"
   }
 }
