@@ -70,7 +70,7 @@ select {
 /* Remove _all_ animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
-    animation-play-state: paused !important;
+    animation-duration: 0s !important;
     transition: none !important;
     scroll-behavior: auto !important;
   }
