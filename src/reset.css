@@ -67,11 +67,11 @@ select {
   font: inherit;
 }
 
-/* Remove _all_ animations and transitions for people that prefer not to see them */
+/* Remove transitions for people that prefer not to see them */
+/* Animations should be handled manually */
 @media (prefers-reduced-motion: reduce) {
   * {
-    animation-play-state: paused !important;
-    transition: none !important;
+    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
