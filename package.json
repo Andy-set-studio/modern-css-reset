@@ -4,7 +4,8 @@
   "description": "A bare-bones CSS reset for modern web development",
   "main": "./dist/reset.min.css",
   "scripts": {
-    "build": "uglifycss src/reset.css > dist/reset.min.css && cp src/reset.css dist/reset.css"
+    "build": "uglifycss src/reset.css > dist/reset.min.css && cp src/reset.css dist/reset.css",
+    "postinstall": "uglifycss src/reset.css > dist/reset.min.css && cp src/reset.css dist/reset.css"
   },
   "repository": {
     "type": "git",
