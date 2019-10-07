@@ -59,6 +59,17 @@ article > * + * {
   margin-top: 1em;
 }
 
+/* Remove list styles on ul and li elements inside a nav element */
+nav ul {
+  list-style: none;
+}
+
+nav ul,
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
 /* Inherit fonts for inputs and buttons */
 input,
 button,
