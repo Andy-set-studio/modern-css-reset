@@ -1,8 +1,9 @@
-/* Box sizing rules */
+/* Box sizing and position relative rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  position: relative;
 }
 
 /* Remove default padding */
