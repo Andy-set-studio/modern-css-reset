@@ -76,3 +76,8 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* Only vertical resizing of <textarea> */
+textarea {
+  resize: vertical;
+}
