@@ -76,3 +76,8 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* Make <fieldset> work good with {display:flex} */
+fieldset {
+  min-width: 0;
+}
