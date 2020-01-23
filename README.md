@@ -33,7 +33,7 @@ $ yarn add modern-css-reset
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />
 ```
 
-### Mannual installation
+### Manual installation
 
 You can minify and move the main reset to the `dist` by running:
 
