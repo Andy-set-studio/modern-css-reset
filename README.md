@@ -9,25 +9,25 @@ A tiny little reset that you can use as the basis of your CSS projects. You can 
 
 ## Installation
 
-- NPM:
+NPM:
 
 ```console
 npm install --save-dev modern-css-reset
 ```
 
-- Yarn:
+Yarn:
 
 ```console
 yarn add modern-css-reset
 ```
 
-- Unpkg CDN: 
+Unpkg CDN: 
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
 ```
 
-- jsDelivr CDN: 
+jsDelivr CDN: 
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />
