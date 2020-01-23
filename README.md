@@ -9,16 +9,52 @@ A tiny little reset that you can use as the basis of your CSS projects. You can 
 
 ## Installation
 
-- NPM: `npm install modern-css-reset`
-- Yarn: `yarn add modern-css-reset`
-- CDN:
-  - Unpkg: `<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />`
-  - jsDelivr: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />`
+NPM:
 
-## Commands
+```console
+npm install --save-dev modern-css-reset
+```
 
-You can minify and move the main reset to the `dist` by running:
+Yarn:
 
-```bash
+```console
+yarn add modern-css-reset
+```
+
+Unpkg CDN: 
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+```
+
+jsDelivr CDN: 
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />
+```
+
+### Manual installation
+
+First, let's clone this repository:
+
+```console
+git clone https://github.com/hankchizljaw/modern-css-reset.git
+```
+
+Then, go to `modern-css-reset` directory:
+
+```console
+cd modern-css-reset
+```
+
+And now, you can minify and move the main reset to the `dist` by running:
+
+```console
 npm run build
 ```
+
+That's it! 🎉
+
+## License
+
+MIT
