@@ -27,10 +27,14 @@ dd {
   margin: 0;
 }
 
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
