@@ -50,10 +50,11 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
+/* Make images and iframes easier to work with */
+iframe,
 img {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
 }
 
 /* Natural flow and rhythm in articles by default */
@@ -72,6 +73,11 @@ select {
 /* Blur images when they have no alt attribute */
 img:not([alt]) {
   filter: blur(10px);
+}
+
+/* Remove border from iframes */
+iframe {
+  border: 0;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
