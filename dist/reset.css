@@ -30,11 +30,14 @@ dd {
 /* Set core root defaults */
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 /* Set core body defaults */
 body {
   min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
