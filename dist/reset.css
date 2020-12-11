@@ -5,12 +5,6 @@
   box-sizing: border-box;
 }
 
-/* Remove default padding */
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
 /* Remove default margin */
 body,
 h1,
@@ -18,8 +12,6 @@ h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
 figure,
 blockquote,
 dl,
@@ -27,25 +19,28 @@ dd {
   margin: 0;
 }
 
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
 /* Set core root defaults */
 html {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   scroll-behavior: smooth;
-  height: -webkit-fill-available;
 }
 
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  /* mobile viewport bug fix */
   min-height: -webkit-fill-available;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-}
-
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
+  color: #0f172a;
 }
 
 /* A elements that don't have a class get default styles */
@@ -60,11 +55,6 @@ picture {
   display: block;
 }
 
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
-
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -73,14 +63,28 @@ select {
   font: inherit;
 }
 
-/* Blur images when they have no alt attribute */
-img:not([alt]) {
-  filter: blur(10px);
+/* Modern by default button styles */
+button,
+input[type="submit"],
+input[type="reset"] {
+  border: 0;
+  border-radius: 0.25rem;
+  background: #4338ca;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+  white-space: nowrap;
+  padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-  * {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
