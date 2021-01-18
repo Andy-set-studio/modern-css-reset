@@ -26,8 +26,10 @@ ol[role="list"] {
 }
 
 /* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
 }
 
 /* Set core body defaults */
@@ -59,9 +61,6 @@ select {
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
   *,
   *::before,
   *::after {
