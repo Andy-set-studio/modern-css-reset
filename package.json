@@ -1,24 +1,21 @@
 {
   "name": "modern-css-reset",
   "version": "1.4.0",
-  "description": "A bare-bones CSS reset for modern web development",
+  "description": "A personal fork of Andy Bell's CSS reset",
+  "private": true,
   "scripts": {
     "build": "uglifycss src/reset.css > dist/reset.min.css && cp src/reset.css dist/reset.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hankchizljaw/modern-css-reset.git"
+    "url": "git+https://github.com/andyt96/modern-css-reset.git"
   },
-  "keywords": [
-    "css reset",
-    "modern css reset"
-  ],
-  "author": "Andy Bell <me@andy-bell.design> (https://hankchizljaw.com)",
+  "author": "Andy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hankchizljaw/modern-css-reset/issues"
+    "url": "https://github.com/andyt96/modern-css-reset/issues"
   },
-  "homepage": "https://github.com/hankchizljaw/modern-css-reset#readme",
+  "homepage": "https://github.com/andyt96/modern-css-reset#readme",
   "devDependencies": {
     "uglifycss": "0.0.29"
   }
