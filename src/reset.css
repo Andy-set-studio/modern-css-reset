@@ -58,6 +58,8 @@ address {
 	word-spacing: inherit;
 }
 
+/* Make sure that button look the same across browser engines */
+
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
 	html:focus-within {
