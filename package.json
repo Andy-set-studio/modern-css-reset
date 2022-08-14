@@ -4,7 +4,7 @@
   "description": "A personal fork of Andy Bell's CSS reset",
   "private": true,
   "scripts": {
-    "build": "uglifycss src/reset.css > dist/reset.min.css && cp src/reset.css dist/reset.css"
+    "build": "csso src/reset.css --output dist/reset.min.css && cp src/reset.css dist/reset.css"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/andyt96/modern-css-reset/issues"
   },
   "homepage": "https://github.com/andyt96/modern-css-reset#readme",
-  "devDependencies": {
-    "uglifycss": "0.0.29"
+  "dependencies": {
+    "csso-cli": "^4.0.1"
   }
 }
