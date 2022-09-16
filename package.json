@@ -1,22 +1,22 @@
 {
-  "name": "modern-css-reset",
-  "version": "1.4.0",
-  "description": "A personal fork of Andy Bell's CSS reset",
-  "private": true,
-  "scripts": {
-    "build": "csso src/reset.css --output dist/reset.min.css && cp src/reset.css dist/reset.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andyt96/modern-css-reset.git"
-  },
-  "author": "Andy",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/andyt96/modern-css-reset/issues"
-  },
-  "homepage": "https://github.com/andyt96/modern-css-reset#readme",
-  "dependencies": {
-    "csso-cli": "^4.0.1"
-  }
+	"name": "modern-css-reset",
+	"version": "1.4.0",
+	"description": "A personal fork of Andy Bell's CSS reset",
+	"private": true,
+	"scripts": {
+		"build": "lightningcss -m src/reset.css -o dist/reset.min.css && cp src/reset.css dist/reset.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andyt96/modern-css-reset.git"
+	},
+	"author": "Andy",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/andyt96/modern-css-reset/issues"
+	},
+	"homepage": "https://github.com/andyt96/modern-css-reset#readme",
+	"dependencies": {
+		"lightningcss-cli": "^1.15.1"
+	}
 }
