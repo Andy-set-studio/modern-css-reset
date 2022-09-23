@@ -1,6 +1,9 @@
 # A modern CSS reset [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A tiny little reset that you can use as the basis of your CSS projects. You can read a [breakdown of it here](https://piccalil.li/blog/a-modern-css-reset/).
+A tiny little reset that you can use as the basis of your CSS projects. You
+can read a
+[breakdown of it here](https://piccalil.li/blog/a-modern-css-reset/).
+
 ## Manual installation
 
 First, let's clone this repository:

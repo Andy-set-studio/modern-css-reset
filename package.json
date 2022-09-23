@@ -18,5 +18,8 @@
 	"homepage": "https://github.com/andyt96/modern-css-reset#readme",
 	"dependencies": {
 		"lightningcss-cli": "^1.15.1"
+	},
+	"devDependencies": {
+		"prettier": "2.7.1"
 	}
 }
