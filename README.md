@@ -7,7 +7,7 @@
 
 A tiny little reset that you can use as the basis of your CSS projects. You can read a [breakdown of it here](https://hankchizljaw.com/wrote/a-modern-css-reset/).
 
-## Installation
+## Installation Guide
 
 NPM:
 
