@@ -39,6 +39,7 @@ button,
 textarea,
 select {
   font: inherit;
+  margin: revert;
 }
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {

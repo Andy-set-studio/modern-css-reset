@@ -55,6 +55,7 @@ button,
 textarea,
 select {
   font: inherit;
+  margin: revert;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
