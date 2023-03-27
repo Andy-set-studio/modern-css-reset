@@ -32,7 +32,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-	min-height: 100vh;
+	min-height: 100%;
 }
 
 /* A elements that don't have a class get default styles */
