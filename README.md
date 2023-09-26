@@ -1,5 +1,9 @@
 # A modern CSS reset
 
+🚨 **Important announcement**: This version of the reset is now archived. You can read a [more update to date one here](https://andy-bell.co.uk/a-more-modern-css-reset/).
+
+***
+
 ![The Uncompressed size of this reset](https://img.badgesize.io/https://unpkg.com/modern-css-reset?label=Uncompressed%20Size)
 ![The GZIP size of this reset](https://img.badgesize.io/https://unpkg.com/modern-css-reset?compression=gzip&label=GZIP%20Size)
 ![The Brotli size of this reset](https://img.badgesize.io/https://unpkg.com/modern-css-reset?compression=brotli&label=Brotli%20Size)
