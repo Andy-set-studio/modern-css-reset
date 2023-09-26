@@ -1,6 +1,6 @@
 # A modern CSS reset
 
-🚨 **Important announcement**: This version of the reset is now archived. You can read a [more update to date one here](https://andy-bell.co.uk/a-more-modern-css-reset/).
+🚨 **Important announcement**: This version of the reset is now archived. You can read a [more up to date one here](https://andy-bell.co.uk/a-more-modern-css-reset/).
 
 ***
 
