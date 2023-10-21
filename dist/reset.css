@@ -27,12 +27,12 @@ ol[role="list"] {
 
 /* Set core root defaults */
 html:focus-within {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  min-height: 100%;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -55,12 +55,13 @@ button,
 textarea,
 select {
   font: inherit;
+  margin: revert;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
   *,
   *::before,
